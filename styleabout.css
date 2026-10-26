@@ -1,0 +1,61 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: "Cascadia Code", Consolas, monospace;
+    text-align: center;
+}h1 {
+    font-size: 50px;
+}
+.YO {
+    max-width: 725px;
+    margin: 0 auto;
+    background-color: rgb(50, 49, 50);
+    border-radius: 10px;
+    color: white;
+    text-align: left;
+    overflow: hidden;
+}
+
+.YO summary {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 12px;
+    cursor: pointer;
+    font-size: 20px;
+    list-style: none;
+}
+
+.YO summary::-webkit-details-marker {
+    display: none;
+}
+
+.YO summary img {
+    width: 90px;
+    height: 90px;
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+.datos-YO {
+    display: grid;
+    gap: 6px;
+}
+
+.datos-YO strong {
+    font-size: 22px;
+}
+
+.datos-YO span {
+    font-size: 16px;
+}
+
+.contenido-YO {
+    padding: 0 16px 16px;
+    font-size: 18px;
+}
+
+.contenido-YO img {
+    max-width: 100%;
+    height: auto;
+}
